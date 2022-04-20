@@ -190,6 +190,10 @@
     animation: rotating 2s linear infinite;
 }
 
+.hide {
+    display: none;
+}
+
 @keyframes rotating {
     to {
         transform: rotate(-360deg);
